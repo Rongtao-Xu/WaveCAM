@@ -1,5 +1,5 @@
 # Wave-like Class Activation Map with Representation Fusion for Weakly-Supervised Semantic Segmentation
-Pytorch implementation of "Wave-like Class Activation Map with Representation Fusion for Weakly-Supervised Semantic Segmentation".
+Pytorch implementation of "Wave-like Class Activation Map with Representation Fusion for Weakly-Supervised Semantic Segmentation" (Under Review).
 
 ## Installation
 
@@ -25,11 +25,7 @@ wget http://images.cocodataset.org/zips/train2014.zip
 wget http://images.cocodataset.org/zips/val2014.zip 
 ```
 
-## Usage for Multi-Stage WSSS
 
-```
-cd multi_stage
-```
 
 ### PASCAL VOC Dataset:**
 
@@ -68,35 +64,6 @@ python run_wavecam_coco.py --mscoco_root your_path --work_space your_work_space 
 
 The same as PASCAL VOC Dataset.
 
-## Usage for End-to-End WSSS
-
-```
-cd end_to_end
-```
-
-Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-Download  Pre-trained weights:
-
-```
-https://github.com/NVlabs/SegFormer
-```
-
-Training on VOC:
-
-```
-bash train/run_wavecam_voc.sh
-```
-
-Training on COCO:
-
-```
-bash train/run_wavecam_coco.sh
-```
 
 ### License me ###
 
